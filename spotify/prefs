@@ -1,0 +1,15 @@
+autologin.saved_credentials="{\"lq62blwnw5jfvp6wkiycqqixq\":[\"lq62blwnw5jfvp6wkiycqqixq\",\"1AWAMDVRtle8aocM3KasLwzC8UhxfHP5A5dUiiFDFFA+vG6n4y/+C+EtlxwDGoEYb69+Gz8nNDyiYs4o5K/xzQdgxel99hUMZmJmzLQyr6ZBtOwBB+VZtwYIUJrWn6Q1Nw6/st0Kc5v+Xu7sHArccNLqQGeInPxRkf9GVXL/INnRevaBKnRTIv85rGLVhK2mvX5W22TESDy3Xj3gVz9ERzUQ4d0TpylzoX48WePBw7/xwE/qJD3e0wSXhyhl0sEF7gE4taZdimsnqgN2mztKmMTB6zLMDFzxZarMQgv/ZobyuUxe9wwf4X0UZBfKJgub+tkrGFA9BKeBlZ8v9jfJpA==\"]}"
+autologin.blob="1AWAMDVRtle8aocM3KasLwzC8UhxfHP5A5dUiiFDFFA+vG6n4y/+C+EtlxwDGoEYb69+Gz8nNDyiYs4o5K/xzQdgxel99hUMZmJmzLQyr6ZBtOwBB+VZtwYIUJrWn6Q1Nw6/st0Kc5v+Xu7sHArccNLqQGeInPxRkf9GVXL/INnRevaBKnRTIv85rGLVhK2mvX5W22TESDy3Xj3gVz9ERzUQ4d0TpylzoX48WePBw7/xwE/qJD3e0wSXhyhl0sEF7gE4taZdimsnqgN2mztKmMTB6zLMDFzxZarMQgv/ZobyuUxe9wwf4X0UZBfKJgub+tkrGFA9BKeBlZ8v9jfJpA=="
+es.send-on-startup=true
+core.clock_delta=0
+autologin.username="lq62blwnw5jfvp6wkiycqqixq"
+app.window.position.saved=true
+app.window.position.height=1007
+app.window.position.y=58
+storage.last-location="/home/posaidon/.cache/spotify/Storage"
+app.window.state.saved=true
+app.window.position.width=1890
+app.window.position.x=15
+app.enable-developer-mode=true
+autologin.canonical_username="lq62blwnw5jfvp6wkiycqqixq"
+app.last-launched-version="1.2.50.335.g5e2860a8"

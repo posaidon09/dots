@@ -1,0 +1,67 @@
+add_newline = false
+format = """
+[╭╴](bold bright-green)$username$directory\
+$line_break\
+$character"""
+
+right_format = """$git_branch$git_status$cmd_duration"""
+
+[username]
+style_user = 'bold fg:#4add9c'
+style_root = 'bold red'
+show_always = true
+
+[character]
+success_symbol = '[╰─>](fg:bright-green bold)'
+error_symbol = '[╰─>](fg:bright-red bold)'
+
+[directory]
+format = "[](fg:#232526 bg:none)[$path]($style)[](fg:#232526 bg:#232526)[](fg:#277f58 bg:#232526)[](fg:#232526 bg:#277f58)[](fg:#277f58 bg:none)"
+style = "fg:#edeff0 bg:#232526"
+truncation_length = 3
+truncate_to_repo=false
+
+[cmd_duration]
+min_time = 1
+format = "[](fg:#232526 bg:none)[$duration]($style)[](fg:#232526 bg:#232526)[](fg:#05a334 bg:#232526)[](fg:#232526 bg:#05a334)[](fg:#05a334 bg:none) "
+disabled = false
+style = "fg:#edeff0 bg:#232526"
+
+[elixir]
+format = '[$symbol$version \(OTP $otp_version\)]($style) '
+style = 'purple'
+symbol = ' '
+
+[gcloud]
+disabled = true
+
+[git_branch]
+format = '[ $symbol$branch]($style) '
+style = 'cyan'
+
+[git_commit]
+disabled = false
+commit_hash_length = 6
+tag_symbol = " "
+only_detached = false
+tag_disabled = false
+format = '[$tag]($style) '
+style = 'purple'
+
+[git_status]
+format = '(  $staged$modified$renamed$deleted$untracked)($style)'
+untracked = '([$count untracked ](italic fg:bright-green))'
+modified = '([$count modified ](italic fg:bright-green))'
+staged = '([$count staged ](italic green))'
+deleted = '([$count deleted ](italic green))'
+renamed = '([$count renamed ](italic green))'
+
+[nodejs]
+format = '[$symbol$version]($style) '
+
+[package]
+disabled = false
+
+[status]
+format = '[$status]($style) '
+disabled = false
